@@ -3,12 +3,12 @@
 int main(){
 
     int a,b,c;
-    printf("\nEscreva 3 notas: ");
-    scanf("%d\n", &a);
-    scanf("%d\n", &b);
-    scanf("%d\n", &c);
+    printf("Escreva 3 notas: \n");
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
     int media = (a + b + c)/3;
-    printf("%d Resuntado da media e: ",media);
+    printf("Resuntado da media e: %d\n",media);
     
 
 return 0;

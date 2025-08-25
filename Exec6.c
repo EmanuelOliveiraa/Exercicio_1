@@ -3,10 +3,10 @@
 int main(){
 
     int a;
-    printf("\nEscreva um numero: ");
-    scanf("%d\n", &a);
+    printf("Escreva um numero: \n");
+    scanf("%d", &a);
     for(int i = 0;i <= 10;i++){
-        printf("%d\n Resuntado da multiplicacao e: ",(a * i));
+    printf("Resuntado da multiplicacao e: %d\n",(a * i));
 
     }
 

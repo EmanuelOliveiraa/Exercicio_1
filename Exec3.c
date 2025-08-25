@@ -3,11 +3,11 @@
 int main(){
 
     int a, b;
-    printf("\nEscreva 2 numeros: ");
-    scanf("%d\n", &a);
-    scanf("%d\n", &b);
+    printf("Escreva 2 numeros: \n");
+    scanf("%d", &a);
+    scanf("%d", &b);
     int divisao = a / b;
-    printf("%d Resuntado da divisao e: ",divisao);
+    printf("Resuntado da divisao e: %d\n",divisao);
     
 
 return 0;

@@ -2,15 +2,14 @@
 
 int main(){
 
-    int a,b,c,peso;
-    printf("\nEscreva 3 notas: ");
-    scanf("%d\n", &a);
-    scanf("%d\n", &b);
-    scanf("%d\n", &c);
-    scanf("%d\n", &peso);
-
-    int media = (a + b + c)/peso;
-    printf("%d Resuntado da media e: ",media);
+    int a,b,peso1,peso2;
+    printf("Escreva as 2 notas e seus respectivos pesos: \n");
+    scanf("%d", &a);
+    scanf("%d", &peso1);
+    scanf("%d", &b);
+    scanf("%d", &peso2);
+    int media = ((a * peso1) + (b * peso2))/2;
+    printf("Resuntado da media e: %d\n",media);
     
 
 return 0;

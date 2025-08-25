@@ -3,11 +3,11 @@
 int main(){
 
     int a, b;
-    printf("\nEscreva 2 numeros: ");
-    scanf("%d\n", &a);
-    scanf("%d\n", &b);
+    printf("Escreva 2 numeros: \n");
+    scanf("%d", &a);
+    scanf("%d", &b);
     int subtracao = a - b;
-    printf("%d Resuntado da subtraçao e: ",subtracao);
+    printf("Resuntado da subtraçao e: %d\n",subtracao);
 
 
 return 0;

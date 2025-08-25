@@ -3,11 +3,12 @@
 int main(){
 
     int a, b;
-    printf("\nEscreva 2 numeros: ");
-    scanf("%d\n", &a);
-    scanf("%d\n", &b);
+    printf("Escreva 2 numeros: \n");
+    
+    scanf("%d", &a);
+    scanf("%d", &b);
     int soma = a + b;
-    printf("%d Resuntado da soma e: ",soma);
+    printf("Resuntado da soma e: %d\n",soma);
     
 
 return 0;
