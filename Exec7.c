@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(){
 
@@ -6,7 +7,7 @@ int main(){
     printf("Escreva dois numero: \n");
     scanf("%d", &a);
     scanf("%d", &b);
-    int resuntado = a ** b;
+    int resuntado = pow(a,b);
     printf("%d\n",resuntado);
 
     

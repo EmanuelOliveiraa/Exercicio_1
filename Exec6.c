@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main(){
 
     int a;
@@ -7,10 +8,8 @@ int main(){
     scanf("%d", &a);
     for(int i = 0;i <= 10;i++){
     printf("Resuntado da multiplicacao e: %d\n",(a * i));
-
     }
 
-    
 
 return 0;
 }
